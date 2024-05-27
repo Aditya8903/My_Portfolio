@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 # Include .env files
-.env
+env
