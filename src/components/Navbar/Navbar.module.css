@@ -1,5 +1,7 @@
 @import "../../vars.css";
-
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   position: relative;
   display: flex;
