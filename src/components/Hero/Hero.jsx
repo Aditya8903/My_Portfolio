@@ -1,6 +1,6 @@
 import { useTypewriter } from "react-simple-typewriter";
 import styles from "./Hero.module.css";
-
+import myImage from "../../../assets/Hero/myImage.jpg"
 const Hero = () => {
     const openResume = () => {
         window.open("../../assets/resume/Resume.pdf", "_blank");
@@ -24,7 +24,7 @@ const Hero = () => {
                 </div>
             </div>
             <img
-                src="assets/Hero/myImage.jpg"
+                src={myImage}
                 alt="Hero image of me"
                 className={styles.heroImg}
             />
