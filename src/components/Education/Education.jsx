@@ -16,7 +16,7 @@ function Education() {
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Secondary School Graduation</h3>
+          <h3 className="vertical-timeline-element-title">Secondary School </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Guru Gobind Singh Public School (GGPS), Bokaro Steel City
           </h4>
@@ -30,11 +30,11 @@ function Education() {
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<SchoolIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Higher Secondary School Graduation</h3>
+          <h3 className="vertical-timeline-element-title">Higher Secondary School </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Guru Gobind Singh Public School (GGPS), Bokaro Steel City
           </h4>
-          <p>Graduated with a strong 95.2% score.</p>
+          <p>Achieved a remarkable 95.2% score.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
