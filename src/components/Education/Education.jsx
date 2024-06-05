@@ -34,7 +34,7 @@ function Education() {
           <h4 className="vertical-timeline-element-subtitle">
             Guru Gobind Singh Public School (GGPS), Bokaro Steel City
           </h4>
-          <p>Graduated with a strong 95.2% score.</p>
+          <p>Achieved a remarkable 95.2% score.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
