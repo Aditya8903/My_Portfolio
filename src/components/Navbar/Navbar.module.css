@@ -82,3 +82,10 @@ html {
     z-index: 1;
   }
 }
+
+@media (max-width: 600px) {
+  .menuBtn {
+    width: 34px; 
+    height: 34px;
+  }
+}
