@@ -40,4 +40,12 @@
     margin-top: 10px;
     font-size: 1.2em;
   }
-  
+  @media (max-width: 600px) {
+    .container {
+      padding: 0.8rem;
+      font-size:18px;
+    }
+    .title{
+      font-size: large;
+    }
+  }

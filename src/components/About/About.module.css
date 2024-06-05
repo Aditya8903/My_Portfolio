@@ -37,6 +37,10 @@
 }
 @media (max-width: 600px) {
   .container {
+    padding: 0.8rem;
     font-size:14px;
+  }
+  .title{
+    font-size: large;
   }
 }
