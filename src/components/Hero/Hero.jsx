@@ -1,6 +1,6 @@
 import { useTypewriter } from "react-simple-typewriter";
 import styles from "./Hero.module.css";
-import myImage from "../../../assets/Hero/myImage.jpg"
+import myImage from "../../../public/assets/Hero/myImage.jpg"
 const Hero = () => {
     const openResume = () => {
         window.open("../../assets/resume/Resume.pdf", "_blank");
