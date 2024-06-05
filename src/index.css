@@ -4,3 +4,12 @@
     padding: 0;
     font-family: "Outfit", Arial, Helvetica, sans-serif;
   }
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px; /* Adjust as needed */
+    }
+  
+    /* .your-class {
+      font-size: 12px;  Adjust as needed 
+    } */
+  }
