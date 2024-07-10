@@ -2,20 +2,21 @@
 @import "../../vars.css";
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensure items are spaced evenly */
-    border-radius: 10px;
-    background: linear-gradient(180deg, #5265b4 0%, #132a53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
-    padding: 18px 24px;
-    width: 100%; /* Ensure full width */
-    max-width: 400px;
-    height: 100%; /* Ensure uniform height */
-    overflow: hidden;
-  }
-.container:hover{
-    background: linear-gradient(180deg, #41549d 0%, #132a53 100%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #5265b4 0%, #132a53 100%);
+  box-shadow: 0 16px 14px 0 #04152d;
+  padding: 18px 24px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  overflow: hidden;
+}
+.container:hover {
+  background: linear-gradient(180deg, #41549d 0%, #132a53 100%);
 }
 
 .image {
@@ -32,11 +33,11 @@
 
 .description {
   margin-top: 6px;
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: 400;
-  overflow: hidden; 
+  overflow: hidden;
   text-overflow: ellipsis;
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }
 
 .skills {
@@ -72,5 +73,4 @@
   border-radius: 90px;
   background: var(--color-primary);
   padding: 10px 22px;
-  
 }

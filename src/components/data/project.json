@@ -1,25 +1,34 @@
 [
-    {
-        "title":"UrabnNest",
-        "imgSrc":"/assets/projectCard/image.png",
-        "description":"A real estate platform was developed to facilitate property listing management. It included a secure user authentication system using JWT tokens and bcrypt for password hashing. CRUD operations for listings and search functionality were implemented, with OAuth authentication integrated for streamlined user registration. The frontend, built with React, provided a responsive interface, while Express.js managed API requests and MongoDB stored data efficiently.",
-        "skills":["HTML","CSS","Javascript","ReactJS","Redux","NodeJS"],
-        "source":"https://github.com/Aditya8903/RealEstate_Project",
-        "gotoSite":"https://urbannest.onrender.com/"
-    },
-    {
-        "title":"Image Gallery",
-        "imgSrc":"/assets/projectCard/galllery.png",
-        "description":"Designed and developed a gallery application using React that dynamically loads images from an external API. Utilizing Axios, I made asynchronous HTTP requests to fetch a set of images complete with titles and descriptions. The application features pagination functionality, allowing users to navigate efficiently through the image collection. Additionally, I included a detailed view for each image to enhance the user experience.",
-        "skills":["HTML","CSS","Javascript","ReactJS"],
-        "source":"https://github.com/Aditya8903/GalleryApp"
-    },
-    {
-        "title":"Meme Generator",
-        "imgSrc":"/assets/projectCard/meme.png",
-        "description":"A React application that dynamically fetches and displays random GIFs from the Giphy API. The application includes features for generating random GIFs and GIFs based on user-defined tags. I utilized React hooks and Axios for efficient state management and API integration, and designed a responsive user interface to ensure an optimal user experience across various devices.",
-        "skills":["HTML","CSS","Javascript","ReactJS"],
-        "source":"https://github.com/Aditya8903/RandomMeme"
-    }
-    
+  {
+    "title": "UrabnNest",
+    "imgSrc": "/assets/projectCard/image.png",
+    "description": "A real estate platform was developed to facilitate property listing management. It included a secure user authentication system using JWT tokens and bcrypt for password hashing. CRUD operations for listings and search functionality were implemented, with OAuth authentication integrated for streamlined user registration. The frontend, built with React, provided a responsive interface, while Express.js managed API requests and MongoDB stored data efficiently.",
+    "skills": ["HTML", "CSS", "Javascript", "ReactJS", "Redux", "NodeJS"],
+    "source": "https://github.com/Aditya8903/RealEstate_Project",
+    "gotoSite": "https://urbannest.onrender.com/"
+  },
+  {
+    "title": "Image Gallery",
+    "imgSrc": "/assets/projectCard/galllery.png",
+    "description": "Designed and developed a gallery application using React that dynamically loads images from an external API. Utilizing Axios, I made asynchronous HTTP requests to fetch a set of images complete with titles and descriptions. The application features pagination functionality, allowing users to navigate efficiently through the image collection. Additionally, I included a detailed view for each image to enhance the user experience.",
+    "skills": ["HTML", "CSS", "Javascript", "ReactJS"],
+    "source": "https://github.com/Aditya8903/GalleryApp",
+    "gotoSite": "https://gallery-app-eight-beta.vercel.app/"
+  },
+  {
+    "title": "Meme Generator",
+    "imgSrc": "/assets/projectCard/meme.png",
+    "description": "A React application that dynamically fetches and displays random GIFs from the Giphy API. The application includes features for generating random GIFs and GIFs based on user-defined tags. I utilized React hooks and Axios for efficient state management and API integration, and designed a responsive user interface to ensure an optimal user experience across various devices.",
+    "skills": ["HTML", "CSS", "Javascript", "ReactJS"],
+    "source": "https://github.com/Aditya8903/RandomMeme",
+    "gotoSite": "https://random-meme-ten.vercel.app/"
+  },
+  {
+    "title": "Music Academy",
+    "imgSrc": "/assets/projectCard/music-academy.png",
+    "description": "MusicAcademy is a comprehensive web application designed for music enthusiasts and learners. This platform offers a seamless experience with features like user interaction and resource sharing, providing a robust and user-friendly interface to enhance the learning and teaching of music.",
+    "skills": ["HTML", "Tailwind CSS", "Typescript", "NextJS"],
+    "source": "https://github.com/Aditya8903/MusicAcademy",
+    "gotoSite": "https://music-academy-lake.vercel.app/"
+  }
 ]
