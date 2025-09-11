@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section className={styles.container} id="home">
       <div className={styles.content}>
-        <h1 className={styles.title}>I&apos;m a {typEffect}</h1>
+        <h1 className={styles.title}>Hi, I&apos;m a {typEffect}</h1>
         <div>
           <button className={styles.contactBtn}>
             <a href="mailto:aditya892003@email.com">Contact Me</a>
