@@ -3,7 +3,10 @@ import styles from "./Hero.module.css";
 import myImage2 from "../../../public/assets/Hero/myImage2.jpeg";
 const Hero = () => {
   const openResume = () => {
-    window.open("../../assets/resume/Resume.pdf", "_blank");
+    window.open(
+      "https://drive.google.com/file/d/1W-HbyUUjfI5KQU_pC66DagosbOuPCAT3/view?usp=sharing",
+      "_blank"
+    );
   };
   const [typEffect] = useTypewriter({
     words: ["Software Engineer", "Web Developer"],
